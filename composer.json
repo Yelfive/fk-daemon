@@ -1,0 +1,13 @@
+{
+  "name": "fk/daemon",
+  "description": "PHP version of daemon",
+  "autoload": {
+    "psr-4": {
+      "fk\\daemon\\": "./src"
+    }
+  },
+  "require": {
+    "php": ">=7"
+  },
+  "minimum-stability": "dev-master"
+}
