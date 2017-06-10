@@ -9,5 +9,5 @@
   "require": {
     "php": ">=7"
   },
-  "minimum-stability": "dev-master"
+  "minimum-stability": "dev"
 }
