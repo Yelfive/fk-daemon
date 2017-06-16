@@ -62,7 +62,6 @@ class Daemon
     {
         $PIDs = Cache::getPIDsByGroup($groupName);
         Signal::send($PIDs, SIGABRT);
-//        Signal::send($PIDs, SIGKILL);
     }
 
     /**

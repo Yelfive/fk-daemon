@@ -7,7 +7,9 @@
     }
   },
   "require": {
-    "php": ">=7"
+    "php": ">=7",
+    "ext-pcntl": "*",
+    "ext-posix": "*"
   },
   "minimum-stability": "dev"
 }
