@@ -42,7 +42,7 @@ class Cache
         $filename = static::getPIDFile($name);
         if (file_exists($filename)) {
             $content = file_get_contents($filename);
-            $PIDs = explode(',', $content);
+            $PIDs = $content ? explode(',', $content) : [];
         } else {
             $PIDs = [];
         }
